@@ -1,0 +1,15 @@
+projects:
+  Mandarines:
+    schemaPath: amplify/backend/api/Mandarines/build/schema.graphql
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: ~/MandarinMates-div/graphql
+extensions:
+  amplify:
+    version: 3

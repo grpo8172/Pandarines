@@ -1,0 +1,20 @@
+
+.header {
+    opacity: 0.7;
+    background-image: url('../../Assets/pic1.JPG');
+    height: 33rem;
+    /* color: rgb(223, 116, 23); */
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: grayscale(100%); */
+}
+
+.part1{
+    background-image: url("../../Assets/background.png");
+}
+
+.part2{
+    background-image: url("../../Assets/background.png");
+    /* transform: scaleX(-1); */
+}

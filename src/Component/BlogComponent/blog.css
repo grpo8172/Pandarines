@@ -1,0 +1,121 @@
+.posts {
+  margin-bottom: 10px;
+}
+.blog-header {
+  background-color: gray;
+  height: 100%;
+}
+.blog-body {
+  background-color: aqua;
+}
+.full-post-small {
+  margin: 5px !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .imgcard {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+
+    height: 50vmin !important;
+    width: 100vw !important;
+  }
+  .crusal-size {
+    height: 50vmin !important;
+    width: 100vw !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+  .imgcard {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    border-radius: 7px !important;
+    height: 40vmin !important;
+    max-height: 320px !important;
+    width: 100% !important;
+  }
+
+  .crusal-size {
+    height: 50vmin !important;
+    width: 100vw !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .imgcard {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    border-radius: 7px !important;
+    height: 30vmin !important;
+    max-height: 320px !important;
+    width: 100% !important;
+  }
+
+  .crusal-image {
+    height: 30vmin !important;
+    width: 100vw !important;
+    margin-left: 0 !important;
+  }
+  .crusal-size {
+    height: 100% !important;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .imgcard {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    height: 30vmin !important;
+    max-height: 320px !important;
+    width: 100% !important;
+  }
+  .crusal-image {
+    height: 100% !important;
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  .crusal-size {
+    height: 100% !important;
+    width: 80% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    margin-top: 2% !important;
+    margin-bottom: 2px !important;
+  }
+}
+
+.recent-post-card {
+  opacity: rgba(245, 245, 245, 0.4) !important;
+}
+
+.recent-post-card-body {
+  background-color: rgba(60, 60, 60, 0.7);
+  padding: 0 !important;
+  border-radius: 10px;
+}
+.recent-post-card-body:hover {
+  padding: 0 !important;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.ant-card-body {
+  padding: 0 !important;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media (min-width: 1200px) {
+  .imgcard {
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+  }
+}
+*/
