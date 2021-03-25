@@ -501,7 +501,7 @@ export default class Home extends Component {
                   
         
         
-        
+         
         <Parallax className="part3">
           <div style={{ height: "180rem" }}>
             <Container>
@@ -516,7 +516,7 @@ export default class Home extends Component {
               <Row>
                 <Col>
                   <Zoom>
-                    <Card style={{ borderRadius: 30 }}>
+                    <Card style={{ borderRadius: 30, backgroundColor: "#fadba2", }}>
                       <Card.Img
                         variant="top"
                         src={T1}
@@ -538,7 +538,7 @@ export default class Home extends Component {
                 </Col>
                 <Col>
                   <Zoom>
-                    <Card style={{ borderRadius: 30 }}>
+                    <Card style={{ borderRadius: 30, backgroundColor: "#f5c076", }}>
                         <Card.Img
                         variant="top"
                         src={T2}
@@ -574,10 +574,10 @@ export default class Home extends Component {
               <Row>
                 <Col>
                   <Zoom>
-                    <Card style={{ borderRadius: 30 }}>
+                    <Card style={{ borderRadius: 30, backgroundColor: "#f5c076", }}>
                       <Card.Img
                         variant="top"
-                        src={T4}
+                        src={T3}
                         alt="hsk"
                         style={{
                 width: "20rem",
@@ -597,7 +597,7 @@ export default class Home extends Component {
                 </Col>
                 <Col>
                   <Zoom>
-                    <Card style={{ borderRadius: 30 }}>
+                    <Card style={{ borderRadius: 30, backgroundColor: "#fadba2", }}>
                         <Card.Img
                         variant="top"
                         src={T4}
@@ -637,7 +637,7 @@ export default class Home extends Component {
               <Row>
                 <Col>
                   <Zoom>
-                    <Card style={{ borderRadius: 30 }}>
+                    <Card style={{ borderRadius: 30, backgroundColor: "#fadba2", }}>
                       <Card.Img
                         variant="top"
                         src={T5}
@@ -660,7 +660,7 @@ export default class Home extends Component {
                 </Col>
                 <Col>
                   <Zoom>
-                    <Card style={{ borderRadius: 30 }}>
+                    <Card style={{ borderRadius: 30, backgroundColor: "#f5c076" }}>
                         <Card.Img
                         variant="top"
                         src={T6}
